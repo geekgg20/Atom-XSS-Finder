@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import mechanize
-import sys
 import argparse
 
 parser = argparse.ArgumentParser(description="Atom - This a XSS finder coded in Python by Muhammad Shahzad, This was coded by him for automating his task and not launching it or make use of it to market himself like others are doing. This tool spiders hundreds of pages, which may take a little time as well - After spidering then it searches for forms present in those pages and then check those pages by filling those forms and then checking if our input is reflected back in the HTML document. This tool should be used for legal purposes for example testing your own sites/applications as testing others without permission is considered illegal. ")
